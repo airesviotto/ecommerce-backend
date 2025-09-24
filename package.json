@@ -1,10 +1,10 @@
 {
   "name": "ecommerce-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "ecomerce api backend",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch --env-file= .env src/server.ts",
+    "dev": "tsx watch --env-file=.env src/config/server.ts",
     "db:seed": "prisma db seed",
     "db:reset": "prisma migrate reset"
   },
